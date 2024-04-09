@@ -2,8 +2,8 @@ const { v2 } = require('cloudinary');
 var fs = require('fs');
 v2.config({ 
     cloud_name: 'dadq2ec1o', 
-    api_key: '864874291683237', 
-    api_secret: 'agZh7Kb5XvGaoxbdVER5BOrxpuA' 
+    api_key: '{Your api key}', 
+    api_secret: '{your api secret}' 
 });
 function uploadImage(file,id)
 {
