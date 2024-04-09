@@ -1,0 +1,19 @@
+To do list for the project.
+    1. Have to create logic for uploading image in
+       server side.
+    2. Have to create a logic for the adding profile pic.
+    3. Have to create a logic that helps to delete all entries in
+    user_course_enroll related to user_id = users.id.
+    4. Check for the query and help for getting pagination in course.
+    5. Add an entry in users as superadmin.
+    6. Give role in header for crud operation of courses
+    so that only admin can delete courses.
+Work which is done.
+    1. Created table for users.
+    2. Created table for course.
+    3. Created Datalayer for the users which perform
+    CRUD operations for the user when user id registered
+    we send a mail and store password for the hashed password.
+    4. Created datalayer for the course.
+    5. Created server side logic for users and courses.
+    6. Now user can open an account and can hace courses.
