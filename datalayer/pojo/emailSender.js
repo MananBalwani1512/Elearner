@@ -1,5 +1,5 @@
 const {Resend} = require('resend');
-const resend = new Resend('re_KzgNxHX2_KbydPegepRBsPQXYxMhoTCHg');
+const resend = new Resend('{your api key for resend.com}');
 function sendEmail(email,subject,html)
 {
     resend.emails.send({
