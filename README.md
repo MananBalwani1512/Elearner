@@ -9,7 +9,7 @@
   4. It provides access rights to different users such as admin and user.
 # Steps Of Usage
   1. First Download the folder or clone it.
-  2. Then setup your project by setting details in .env file for database in datalayer/connector.js by changing connection string.
+  2. Then setup your project by setting deatils for database in datalayer/connector.js by changing connection string.
   3. Then change your credentials for the emailSender.js andd your own credentials.
   4. Then change your credentials in cloud.js.
   5. Now just go in server folder and execute files users.js and courses.js.
