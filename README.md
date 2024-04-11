@@ -10,12 +10,13 @@
 # Steps Of Usage
   1. First Download the folder or clone it.
   2. Then setup your project by setting deatils for database in datalayer/connector.js by changing connection string.
-  3. Then change your credentials for the emailSender.js andd your own credentials.
-  4. Then change your credentials in cloud.js.
-  5. Now just go in server folder and execute files users.js and courses.js.
-  6. This will start the server on ports 5000 and 5001 respectively.
-  7. The users.js has all operations related to user CRUD operations only.
-  8. The courses.js has all CRUD operations related to courses and allows user to enroll or unenroll from a course.
+  3. Create tables in neon db named as users,course,user_course_enroll the code of the table creation is provided in /datalayer/sql/db.sql file to create schema of the database.
+  4. Then change your credentials for the emailSender.js andd your own credentials.
+  5. Then change your credentials in cloud.js.
+  6. Now just go in server folder and execute files users.js and courses.js.
+  7. This will start the server on ports 5000 and 5001 respectively.
+  8. The users.js has all operations related to user CRUD operations only.
+  9. The courses.js has all CRUD operations related to courses and allows user to enroll or unenroll from a course.
 # Conclusion
   This is all about my project about backend development for Elearning website.
   
