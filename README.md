@@ -8,7 +8,7 @@
   3. It also provides feature of sendin email when user registers and when a user enrolls in a course.
   4. It provides access rights to different users such as admin and user.
 # Steps Of Usage
-  1. First Download the folder or clone it.
+  1. First Download the folder or clone it and then in terminal in the folder directory run command npm i to install necessary packages.
   2. Then setup your project by setting deatils for database in datalayer/connector.js by changing connection string.
   3. Create tables in neon db named as users,course,user_course_enroll the code of the table creation is provided in /datalayer/sql/db.sql file to create schema of the database.
   4. Then change your credentials for the emailSender.js andd your own credentials.
