@@ -4,9 +4,9 @@
   2. The Project uses dependencies like express.js, Cloudinary cloud platform to upload profile photos, Resend API to send mails for registration and course enrollment,bcryptjs for encrypting password and neon database for storing data.
   3. The project is all developed in express framework of node.js.
 # Features
-  1. The project provides the user access courses by using filters and pagination from server side only.
+  1. The project provides the user access course details by using filters and pagination from server side only.
   2. The project helps admin only to add, delete, update courses.
-  3. It also provides feature of sendin email when user registers and when a user enrolls in a course.
+  3. It also provides feature of sending email when user registers and when a user enrolls in a course.
   4. It provides access rights to different users such as admin and user.
 # Steps Of Usage
   1. First Download the folder or clone it and then in terminal in the folder directory run command npm i to install necessary packages.
