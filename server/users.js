@@ -10,13 +10,6 @@ app.use(expressFileUpload({
     }
 }));
 //User operations start here
-app.post("/test",async function(request,response)
-{
-    console.log(request.headers.role);
-    console.log(request.role);
-    console.log(request);
-    response.send(true);
-})
 app.post("/addUser",async function(request,response)
 {
     var name = request.body.name;
