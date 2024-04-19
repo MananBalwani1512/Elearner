@@ -56,6 +56,7 @@
     Request Type : GET
   ### Data
       query string is formed by appending ?email='user email here'.
+  # URLs for the Course
   ## localhost:5001/getAllCourses
     Request Type : POST
   ### Request Headers
@@ -105,6 +106,7 @@
       {
         "id" : integer
       }
+  # URLs for the user to enroll/unenroll in the course
   ## localhost:5001/enrollUserInCourse
     Request Type : POST
   ### Request Headers
